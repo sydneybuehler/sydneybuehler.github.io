@@ -1,0 +1,44 @@
+/* Tag selector: styles every <body> tag */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+/* ID selector: styles the one element with id="title" */
+#title {
+  color: #bf5700;
+  text-align: center;
+}
+
+/* Class selector: styles every element with class="section" */
+.section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #dddddd;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+/* Styles the image so it isn't huge */
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* Normal link color */
+a {
+  color: #bf5700;
+}
+
+/* Link color when the cursor is over it */
+a:hover {
+  color: #333333;
+}
+
+/* Only applies to images with class="pet-photo" */
+.pet-photo {
+  width: 40%;
+  border-radius: 8px;
+}
